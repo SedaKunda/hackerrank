@@ -8,14 +8,12 @@ If NN is even and N>20N>20, print "Not Weird".
 We given you partially completed code in the editor, complete it to solve the problem.
 
 Input Format
-
 There is a single line of input: integer NN.
 
 Constraints
-
 1≤N≤1001≤N≤100
-Output Format
 
+Output Format
 Print "Weird" if the number is weird. Otherwise, print "Not Weird". Do not print the quotation marks.
 */
 
