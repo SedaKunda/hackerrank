@@ -20,7 +20,6 @@ cpp            065
 python         050 
 ================================
 */
-
 import java.util.Scanner;
 
 public class FormattedOutput {
