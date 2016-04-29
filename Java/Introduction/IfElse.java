@@ -25,7 +25,7 @@ Print "Weird" if the number is weird. Otherwise, print "Not Weird". Do not print
     import java.math.*;
     import java.util.regex.*;
 
-    public class Solution {
+    public class IfElse {
 
         public static void main(String[] args) {
 
