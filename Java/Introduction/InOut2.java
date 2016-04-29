@@ -17,7 +17,7 @@ On the third line, print Int: followed by the unaltered input integer.
 
 import java.util.Scanner;
 
-public class Solution {
+public class InOut2 {
 
     public static void main(String[] args) {
             Scanner sc=new Scanner(System.in);
