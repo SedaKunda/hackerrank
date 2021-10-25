@@ -1,11 +1,11 @@
 /*
 Input Format
 Every line of input will contain a String followed by an integer. 
-Each String will have a maximum of 1010 alphabetic characters, and each integer will be in the inclusive range from 00 to 999999.
+Each String will have a maximum of 1010 alphabetic characters, and each integer will be in the inclusive range from 0 to 999.
 
 Output Format
 In each line of output there should be two columns: 
-The first column contains the String and is left justified using exactly 1515 characters. 
+The first column contains the String and is left justified using exactly 15 characters. 
 The second column contains the integer, expressed in exactly 33 digits; if the original input has less than three digits, you must pad your output's leading digits with zeroes.
 
 Sample Input
