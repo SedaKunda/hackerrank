@@ -1,2 +1,2 @@
 # HackerRank
-My submissions to HackerRank Challenges
+My submissions to [HackerRank](https://www.hackerrank.com/) Challenges
