@@ -19,22 +19,23 @@ Sample input 1
 Sample output 1
 3
 */
+import java.io.*;
+import java.util.*;
 
-public static boolean flag = true;
-	public static int B;
-	public static int H;
-	static {
-		
-		Scanner sc = new Scanner (System.in);
-	    B = sc.nextInt();
-	    H = sc.nextInt();
-	    
-	    if (B<0 || H<0) {
-	        flag = false;
-	        System.out.println("java.lang.Exception: Breadth and height must be positive");
-	    }
-        if (B==0 && H==100) {
-	        flag = false;
-	        System.out.println("java.lang.Exception: Breadth and height must be positive");
-	    }
-	} 
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc = new Scanner(System.in);
+        int B = sc.nextInt();
+        int H = sc.nextInt();
+        int area=0;
+        if(B<=0 || H<=0){
+           System.out.println("java.lang.Exception: Breadth and height must be positive");
+        }else{
+            area = B * H;
+            System.out.println(area);
+        }
+        
+    }
+}
